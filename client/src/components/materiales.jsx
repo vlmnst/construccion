@@ -2,21 +2,15 @@ function MaterialesTable() {
 
 
     return (
-      <div className="p-5 bg-slate-600 border border-slate-400 "  >
+      <div className="p-5 bg-slate-600 border border-slate-400 rounded-tl-md rounded-bl-md w-full "  >
+            <div className="flex justify-around items-center mb-3">
+                <span className="text-sm font-light md:text-lg md:font-normal ">Detalle de Materiales</span>
+                <span className="text-sm font-light md:text-lg md:font-normal"> Categoria: <strong>pitureria</strong> </span>
+            </div>
+                
         <table className="table-auto border-collapse ">
-            <thead>
-                <tr>
-                    <th >-</th>
-                    <th ></th>
-                    <th className="text-sm font-light md:text-lg md:font-normal ">Detalle de Materiales</th>
-                </tr>
-                <tr>
 
-                <th >-</th>
-                <th ></th>
-
-                    <th className="text-sm font-light md:text-sm md:font-normal">Categoria: pitureria</th>
-                </tr>
+            <thead>    
                 <tr className="text-xs font-mono md:text-sm md:font-normal border border-slate-400">
                 <td className="text-center"></td>
                     

@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <nav className="flex flex-col md:flex-row items-center">
+    <nav className="flex flex-col md:flex-row items-center justify-center">
       <select className="text-sm bg-slate-600 text-white p-2 rounded mt-5 mb-5 w-3/4 md:m-5 md:w-1/5">
         <option>Seleccione una categoria</option>
         <option value="todosCategoria">Todos</option>
