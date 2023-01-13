@@ -1,7 +1,7 @@
 function NavBar() {
   return (
-    <nav className="flex flex-col md:flex-row items-center justify-center">
-      <select className="text-sm bg-slate-600 text-white p-2 rounded mt-5 mb-5 w-3/4 md:m-5 md:w-1/5">
+    <nav className="flex flex-col md:flex-row items-center justify-center sm:w-full">
+      <select className="text-sm bg-slate-600 text-white p-2 rounded mt-5 mb-5 md:m-5 md:w-1/5 w-10/12">
         <option>Seleccione una categoria</option>
         <option value="todosCategoria">Todos</option>
         <option value="adicem">Adicem</option>
@@ -14,7 +14,7 @@ function NavBar() {
         <option value="hojalatero">Hojalatero</option>
       </select>
 
-      <select className="text-sm bg-slate-600 text-white p-2 rounded mb-5 w-3/4 md:m-5  md:w-1/5">
+      <select className="text-sm bg-slate-600 text-white p-2 rounded mb-5  md:m-5  md:w-1/5  w-10/12">
         <option>Seleccione un estado</option>
         <option value="todosEstado">Todos</option>
         <option value="fletes">Fletes pendientes</option>
