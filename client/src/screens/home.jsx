@@ -7,8 +7,8 @@ function Home() {
   return (
     <div className="flex flex-col w-full h-full sm:h-auto">
       <NavBar />
-      <div className="flex flex-col 2xl:flex-row text-white items-center h-full  md:justify-center lg:justify-around    ">
-        <div className="flex flex-col lg:flex-row  items-center w-10/12  md:justify-center mb-10 ">
+      <div className="flex flex-col 2xl:flex-row text-white items-center h-full  md:justify-center lg:justify-around 2xl:    ">
+        <div className="flex flex-col lg:flex-row  items-center w-10/12  md:justify-center mb-10 2xl:w-9/12 ">
           <div className="hidden sm:flex sm:mr-20 sm:ml-20 md:m-0 w-full">
             <MaterialesTable />
           </div>
@@ -20,7 +20,7 @@ function Home() {
             <ProveedoresTable/>
           </div>
         </div>
-        <div className="flex  w-full justify-center">
+        <div className="flex w-full 2xl:w-96 justify-center">
           <Formulario/>
           </div>
       </div>
